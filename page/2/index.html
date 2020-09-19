@@ -1,0 +1,227 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Unique Craftsman - Fighting for BAT!</title><meta name="description" content="My world, I call the shots"><meta name="author" content="小兔子乖乖"><meta name="copyright" content="小兔子乖乖"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="shortcut icon" href="/img/favicon1.png"><link rel="canonical" href="www.dengjing520.cn/page/2/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta property="og:type" content="website"><meta property="og:title" content="Unique Craftsman"><meta property="og:url" content="www.dengjing520.cn/page/2/"><meta property="og:site_name" content="Unique Craftsman"><meta property="og:description" content="My world, I call the shots"><meta property="og:image" content="www.dengjing520.cn/img/avatar.png"><meta property="article:published_time" content="2020-09-17T07:46:53.406Z"><meta property="article:modified_time" content="2020-09-17T07:46:53.406Z"><meta name="twitter:card" content="summary"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css"><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js" defer></script><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  hexoversion: '5.1.1',
+  algolia: {"appId":"ZSC04LOBCX","apiKey":"34b7ba6cc72a096588854b65468c7d74","indexName":"hexo","hits":{"per_page":6},"languages":{"input_placeholder":"搜索文章","hits_empty":"找不到您查询的内容：${query}","hits_stats":"找到 ${hits} 条结果，用时 ${time} 毫秒"}},
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime: '',
+  date_suffix: {"one_hour":"刚刚","hours":"小时前","day":"天前"},
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: undefined,
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  baiduPush: false,
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+};
+
+var saveToLocal = {
+  set: function setWithExpiry(key, value, ttl) {
+    const now = new Date()
+    const expiryDay = ttl * 86400000
+    const item = {
+      value: value,
+      expiry: now.getTime() + expiryDay,
+    }
+    localStorage.setItem(key, JSON.stringify(item))
+    },
+
+  get: function getWithExpiry(key) {
+    const itemStr = localStorage.getItem(key)
+
+    if (!itemStr) {
+      return undefined
+    }
+    const item = JSON.parse(itemStr)
+    const now = new Date()
+
+    if (now.getTime() > item.expiry) {
+      localStorage.removeItem(key)
+      return undefined
+    }
+    return item.value
+  }
+}</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: true,
+  isSidebar: false,
+  postUpdate: '2020-09-17 15:46:53'
+}</script><noscript><style type="text/css">
+#nav {
+  opacity: 1
+}
+.justified-gallery img {
+  opacity: 1
+}
+</style></noscript><link rel="stylesheet" href="APlayer.min.css"><div id="aplayer"></div><script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js" async></script><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+  }
+}
+
+var autoChangeMode = 'false'
+var t = saveToLocal.get('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (saveToLocal.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><script src="https://cdn.jsdelivr.net/gh/yremp/yremp-js@1.5/sakura.js"></script><meta name="generator" content="Hexo 5.1.1"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">17</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">4</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">9</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 清单</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音樂</span></a></li><li><a class="site-page" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 電影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div id="body-wrap"><div id="web_bg" data-type="color"></div><header class="full_page" id="page-header" style="background-image: url(/img/love1.jpg)"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Unique Craftsman</a></span><span id="menus"><div id="search_button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 清单</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音樂</span></a></li><li><a class="site-page" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 電影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><span class="close" id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="site-info"><h1 id="site_title">Unique Craftsman</h1><div id="site_subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/375083922/375083922.github.io" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:huahua20191227@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title=""><i class="fa fa-rss"></i></a></div></div><div id="scroll_down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout_page" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2019/12/02/life/live/%E6%84%9A%E8%A0%A2%E6%97%A5%E8%AE%B0/" title="愚蠢日记">     <img class="post_bg" src="/img/post/post1.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="愚蠢日记"></a></div><div class="recent-post-info"><a class="article-title" href="/2019/12/02/life/live/%E6%84%9A%E8%A0%A2%E6%97%A5%E8%AE%B0/" title="愚蠢日记">愚蠢日记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2019-12-02T08:30:16.000Z" title="发表于 2019-12-02 16:30:16">2019-12-02</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E7%94%9F%E6%B4%BB%E7%9A%84%E7%A7%98%E5%AF%86/">生活的秘密</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/tag1/">tag1</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/tag2/">tag2</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/tag3/">tag3</a></span></div><div class="content">记一次清灰自己愚蠢操作1.清灰钱给多了，完全可以30搞定，或者说是早知道别人不负责其他的，只帮忙清灰那么就该自己来，自己愚蠢了。
+2.干事之前最好了解这个事情性质，别人只负责清灰就别指望别人帮你看其他的，因为别人只拿了你清灰的钱，这是买卖
+3.对于电脑清灰的价格应该有一个横向对比，有的上门服务清灰还更便宜
+4.对于别人的对自己的隐私信息一定不要暴露太多，一旦别人问什么你就如实回答什么，那么你就会任人宰割。社会上混一定尽量少讲真话，对自己不熟的人不要讲真话。
+5.对于还价，一定要先周旋一下，比如别人出了一个价，我首先不要急着给人家回价，要先大量周旋一下，最好是修之前就定好价格，我这样属于危险操作，先让人修然后只能等着别人出价了，要是别人是黑心的那就完蛋了。
+6.地理位置很偏僻，女孩子谨慎夜晚出行。
+7.这种买卖最好有朋友在。
+8.回来时商店时，莫名其妙的负了30元，买零食自己心里有点数，本来只是买个面包，一包零食20元，真是瞎了眼了
+9.不要在游戏上花一分钱。（不要在游戏上花一分钱），留下女人。
+10.不忘初心，方得始终。
+</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2019/12/02/life/live/%E6%96%87%E5%AD%A6%E7%9F%A5%E8%AF%86/" title="文学知识">     <img class="post_bg" src="/img/post/post1.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="文学知识"></a></div><div class="recent-post-info"><a class="article-title" href="/2019/12/02/life/live/%E6%96%87%E5%AD%A6%E7%9F%A5%E8%AF%86/" title="文学知识">文学知识</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2019-12-02T08:30:16.000Z" title="发表于 2019-12-02 16:30:16">2019-12-02</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E6%96%87%E5%AD%A6%E7%9F%A5%E8%AF%86/">文学知识</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/tag1/">tag1</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/tag2/">tag2</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/tag3/">tag3</a></span></div><div class="content">文学知识弱水三千只取一瓢饮
+意思是說弱水有三千里，水雖多，但我只舀其中一瓢來喝。 紅樓夢此處情節恰為林黛玉試探寶玉對寶釵的心意，所以後來引此語多將「弱水」比喻作愛河情海。 「弱水三千」指情愛心意很多（或對象很多），「一瓢飲」是指「只取其中之一」的意思。
+</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2019/12/02/life/live/%E6%88%91%E7%9A%84hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/" title="博客搭建">     <img class="post_bg" src="/img/post/post8.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="博客搭建"></a></div><div class="recent-post-info"><a class="article-title" href="/2019/12/02/life/live/%E6%88%91%E7%9A%84hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/" title="博客搭建">博客搭建</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2019-12-02T08:30:16.000Z" title="发表于 2019-12-02 16:30:16">2019-12-02</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E7%94%9F%E6%B4%BB%E7%9A%84%E7%A7%98%E5%AF%86/">生活的秘密</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/tag1/">tag1</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/tag2/">tag2</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/tag3/">tag3</a></span></div><div class="content">我的hexo博客搭建过程1.为什么我要选择搭建一个博客系统？1.大老师说：我乐意，哈哈因为我需要！
+  羡慕别人的博客网站，自己为什么就不能搭一个。
+  博客系统看着就香！
+
+2.自己的博客系统自己做主，主要是买了台阿里服务器和域名，总得用下吧！
+
+3.急需一个博客网站来记录我的思想。每日一总结 + 综艺大集合 + 电影大集合
++ 游戏大集合 + hiphop，太想拥有一个属于自己的世界。
+
+4.编程资料太多需要整理归纳，然后方便以后开发查阅
+
+5.一些自己开发工具整理下，以后还访问啥其他导航栏，自己访问自己博客点链接他不香吗？
+
+诸如此类的小思想.....
+
+现在学搭博客一时爽，一直搭一直爽
+
+2.搭博客前的故事博客系统说白了就是一个网站，有前端有后端有数据，系统架构怎么实现呢，
+刚开始肯定以为很复杂，想着是不是要部署一个nginx+tomcat+mysql这样的一套系统上去，一想到前端直接就放弃了，这也是最开始对待博客系统的看法。
+
+然后，想着自己很多demo工程需要用到linux，老是用vmware总感觉不舒服，索性自己买一个玩一下，也不贵。再就看到了阿里云上面的服务器有定制化博 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2019/12/02/life/live/%E9%87%8D%E6%96%B0%E5%BC%80%E5%A7%8B/" title="重新开始用心记录每一个遇到的问题">     <img class="post_bg" src="/img/post/post3.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="重新开始用心记录每一个遇到的问题"></a></div><div class="recent-post-info"><a class="article-title" href="/2019/12/02/life/live/%E9%87%8D%E6%96%B0%E5%BC%80%E5%A7%8B/" title="重新开始用心记录每一个遇到的问题">重新开始用心记录每一个遇到的问题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2019-12-02T08:30:16.000Z" title="发表于 2019-12-02 16:30:16">2019-12-02</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E9%87%8D%E5%A4%B4%E5%86%8D%E6%9D%A5/">重头再来</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/tag1/">tag1</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/tag2/">tag2</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/tag3/">tag3</a></span></div><div class="content">重新开始1.windows如何快速在文件下打开命令窗口，这样很方便直接进入指定的文件路径，从而不需要cd 到XX文件夹下
+https://blog.csdn.net/lenfranky/article/details/90177121
+参照此文，我会选着第一种。
+方法一
+先打开指定的文件夹（explore中），然后选中地址栏（此时默认选中了地址栏中的所有路径，将其覆盖即可），然后输入cmd，回车，便可以打开对应路径的cmd窗口了。
+方法二较复杂
+2.在windows上搭建hexo报错
+https://github.com/jrudess/streamdvr/issues/40
+这样一个问题，外国人也遇到了，然后解决的问题的答案也有回复
+Ok, so ya, I updated node to 10.5 and I have no issues .... ready to close... anyone else having this issue check and make sure your nodejs version is 9.4.0 or better as required ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2019/12/02/life/movie/%E6%88%91%E7%9C%8B%E8%BF%87%E7%9A%84%E5%A5%BD%E7%94%B5%E5%BD%B1/" title="电影">     <img class="post_bg" src="https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="电影"></a></div><div class="recent-post-info"><a class="article-title" href="/2019/12/02/life/movie/%E6%88%91%E7%9C%8B%E8%BF%87%E7%9A%84%E5%A5%BD%E7%94%B5%E5%BD%B1/" title="电影">电影</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2019-12-02T08:30:16.000Z" title="发表于 2019-12-02 16:30:16">2019-12-02</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E7%94%B5%E5%BD%B1/">电影</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/tag1/">tag1</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/tag2/">tag2</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/tag3/">tag3</a></span></div><div class="content">我看过的好电影1.《肖申克的救赎》《阿甘正传》
+2.《这个杀手不太冷》
+3.《第一滴血》史泰龙《敢死队》
+4.《猫鼠游戏》小李子
+5.《小丑》
+6.《落叶归根》《艾斯的三次葬礼》
+7.周星驰电影集《功夫》《大话西游》《喜剧之王》
+8.《放牛班的春天》《天堂电影院》《西西里的美丽传说》
+9.《蛮荒故事》
+10.成龙电影集
+12.甄子丹电影集
+13.《死亡飞车》
+14.《爱、死亡、机器人》
+15.《我的叔叔》《被嫌弃的松子》
+16.《釜山行》
+17.黄渤电影集
+18.《绿皮书》
+19.《无问西东》
+20.《无人区》
+21.《老无所依》
+22.好的电视剧《同窗的你》
+23.《七号房间的礼物》《忠犬八公的故事》
+24.宫崎骏动漫《千与千寻》
+25.徐峥这个导演很恶心，打着博观众同情的幌子，实际是为了圈钱，他的电影也是一样圈钱片
+26.《霸王别姬》陈凯歌导演的电视剧有《将夜》  
+27.《盗梦空间》
+28.《三傻大闹宝莱坞》
+29.《让子弹飞》姜文电影
+30.《当幸福来敲门》
+31.《星际穿越》
+32.《少年派的奇幻漂流》
+33.《头号玩家》
+34.《你的名字》
+35.《奇生虫》《小偷家族》韩国 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2019/12/02/life/movie/%E5%BD%B1%E8%AF%84/" title="电影影评">     <img class="post_bg" src="https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="电影影评"></a></div><div class="recent-post-info"><a class="article-title" href="/2019/12/02/life/movie/%E5%BD%B1%E8%AF%84/" title="电影影评">电影影评</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2019-12-02T08:30:16.000Z" title="发表于 2019-12-02 16:30:16">2019-12-02</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E7%94%B5%E5%BD%B1/">电影</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/tag1/">tag1</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/tag2/">tag2</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/tag3/">tag3</a></span></div><div class="content">技术进步三十年，审美倒退三十年。片酬进步三十年，敬业倒退三百年。
+这个问题，不平庸，说出了很多人的心声！
+为什么我会来到这里：我也是去各大平台看了一圈，实在是找不到什么好看的，比较牢牢抓住我眼球的电视剧了，电影就更别提了，比电视剧更加让人恶心，我甚至都质疑那些豆瓣高分电影去哪了，哎，豆瓣高分看得也差不多了，有点无片可看的感觉，就去木鱼水心看了一圈，然后去虎牙看了一圈电影解说，就是经典可以去回味了，但是自己也想吃些新鲜的东西啊，大家好像都在发出没什么高质量片的叹息，我一个普通观众找一个对胃口的东西真的难，就是那种无脑抓住我让我爽一小时的《匹诺曹》也找不到。
+给我的感觉是没人愿意拍好的电视剧了：有内涵的，像那些《平凡的世界》这种电视剧，基本没有了，都是些网剧修仙、校园剧、职场青春剧、盗墓的，说实话都是些商业烂大街，把那些经典的电影翻拍成电视剧不香吗，就像《白鹿原》一样，都什么年代了还是那些比较落后的抗日剧，我真想说他们中国电视剧行业真差劲，不是我们这届观众差，是那些拍烂片的编剧导演素质太差，没人愿意拍一些有价值的东西，都是能圈一波钱是一波，能捧红几个当下艺人。。。汪海林说过这么个现象。
+评 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2019/12/02/sql/02.%E9%94%81/" title="数据库锁">     <img class="post_bg" src="/img/post/post3.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="数据库锁"></a></div><div class="recent-post-info"><a class="article-title" href="/2019/12/02/sql/02.%E9%94%81/" title="数据库锁">数据库锁</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2019-12-02T07:50:50.000Z" title="发表于 2019-12-02 15:50:50">2019-12-02</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/tag1/">tag1</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/tag2/">tag2</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/tag3/">tag3</a></span></div><div class="content">数据库锁一、数据库的乐观锁1.乐观锁解释    乐观锁假设认为数据一般情况下不会造成冲突，所以在数据进行提交更新的时候，才会正式对数据的冲突与否进行检测，如果发现冲突了，首先由程序员进行有次数限制的重复提交更新 【5次】，如果最终未提交更新，则让返回用户错误的信息，让用户决定如何去做。
+2.乐观锁实现使用数据版本（Version）记录机制实现，这是乐观锁最常用的一种实现方式。
+
+即为数据增加一个版本标识，一般是通过为数据库表增加一个数字类型的 “version” 字段来实现。
+
+当读取数据时，将version字段的值一同读出，数据每更新一次，对此version值加1。        //   时间戳
+
+    update … where … and version=”old version”
+
+当我们提交更新的时候，判断数据库表对应记录的当前版本信息version与第一次取出来的version值进行比对，如果数据库表当前版本号与第一次取出来的version值相等，则予以更新，否则认为是过期数据。
+
+https://www.cnblogs.com/baxianhua/p/9378031 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2019/12/02/sql/03.%E7%B4%A2%E5%BC%95/" title="索引（一）">     <img class="post_bg" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="索引（一）"></a></div><div class="recent-post-info"><a class="article-title" href="/2019/12/02/sql/03.%E7%B4%A2%E5%BC%95/" title="索引（一）">索引（一）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2019-12-02T07:30:16.000Z" title="发表于 2019-12-02 15:30:16">2019-12-02</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/tag1/">tag1</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/tag2/">tag2</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/tag3/">tag3</a></span></div><div class="content">索引一、什么是索引​    索引是对数据库表中一列或多列的值进行排序的一种结构，使用索引可快速访问数据库表中的特定信息。
+二、为什么要使用索引​    快速查询数据，解释：全表扫描只是针对于数据较少的表中才使用，为了避免全表扫描，我们引入了索引的概念，灵感来源于《新华字典》，对关键信息进行索引存储来进行查询。
+https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
+三、索引使用的原则（列举）1.选择唯一性索引：【选择性】
+唯一性索引的值是唯一的，可以更快速的通过该索引来确定某条记录。    select * from table表名  where id = 5;
+为常作为查询条件的字段建立索引。    select * from table表名  where    age = 20 and name = &quot;熊大&quot;         
+
+2.限制索引的数目：【浪费空间】  【当前列需要当做条件】
+越多的索引，会使更新表变得很浪费时间。
+3.删除不再使用或者很少使用的索引4.最左前缀匹配原则联合索引的最 ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/3/"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside_content" id="aside_content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">小兔子乖乖</div><div class="author-info__description">My world, I call the shots</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length_num">17</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length_num">4</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length_num">9</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/375083922/hexo-theme-butterfly"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/375083922/375083922.github.io" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:huahua20191227@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title=""><i class="fa fa-rss"></i></a></div></div></div><div class="sticky_layout"><div class="card-widget card-announcement"><div class="card-content"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div></div><div class="card-widget card-recent-post"><div class="card-content"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2020/09/17/SomeNewPost/" title="Some New Post"><img src="/img/post/post5.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Some New Post"/></a><div class="content"><a class="title" href="/2020/09/17/SomeNewPost/" title="Some New Post">Some New Post</a><time datetime="2020-09-16T17:23:47.000Z" title="发表于 2020-09-17 01:23:47">2020-09-17</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2020/06/02/sql/sql%E4%BC%98%E5%8C%96/" title="简单的SQL优化"><img src="/img/post/post8.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="简单的SQL优化"/></a><div class="content"><a class="title" href="/2020/06/02/sql/sql%E4%BC%98%E5%8C%96/" title="简单的SQL优化">简单的SQL优化</a><time datetime="2020-06-02T07:30:16.000Z" title="发表于 2020-06-02 15:30:16">2020-06-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2020/05/02/redis/redis%E7%AC%94%E8%AE%B0%20-%20%E6%89%A9%E5%B1%95/" title="Redis学习笔记"><img src="/img/post/post4.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Redis学习笔记"/></a><div class="content"><a class="title" href="/2020/05/02/redis/redis%E7%AC%94%E8%AE%B0%20-%20%E6%89%A9%E5%B1%95/" title="Redis学习笔记">Redis学习笔记</a><time datetime="2020-05-02T07:30:16.000Z" title="发表于 2020-05-02 15:30:16">2020-05-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2019/12/07/server/Tomcat%E4%BC%98%E5%8C%96%20/" title="少许Tomcat基本优化点"><img src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="少许Tomcat基本优化点"/></a><div class="content"><a class="title" href="/2019/12/07/server/Tomcat%E4%BC%98%E5%8C%96%20/" title="少许Tomcat基本优化点">少许Tomcat基本优化点</a><time datetime="2019-12-07T07:30:16.000Z" title="发表于 2019-12-07 15:30:16">2019-12-07</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2019/12/02/%E5%B0%8F%E7%9A%84%E7%9F%A5%E8%AF%86%E7%82%B9/" title="编程日记"><img src="/img/post/post.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="编程日记"/></a><div class="content"><a class="title" href="/2019/12/02/%E5%B0%8F%E7%9A%84%E7%9F%A5%E8%AF%86%E7%82%B9/" title="编程日记">编程日记</a><time datetime="2019-12-02T08:30:16.000Z" title="发表于 2019-12-02 16:30:16">2019-12-02</time></div></div></div></div></div><div class="card-widget card-categories"><div class="card-content"><div class="item-headline"><i class="fas fa-folder-open"></i><span>分类</span></div><ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Redis/"><span class="card-category-list-name">Redis</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"><span class="card-category-list-name">数据库</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BA%8B%E5%8A%A1/"><span class="card-category-list-name">数据库事务</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%96%87%E5%AD%A6%E7%9F%A5%E8%AF%86/"><span class="card-category-list-name">文学知识</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/"><span class="card-category-list-name">服务器</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%94%9F%E6%B4%BB%E7%9A%84%E7%A7%98%E5%AF%86/"><span class="card-category-list-name">生活的秘密</span><span class="card-category-list-count">3</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%94%B5%E5%BD%B1/"><span class="card-category-list-name">电影</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%BC%96%E7%A8%8B%E6%97%A5%E8%AE%B0/"><span class="card-category-list-name">编程日记</span><span class="card-category-list-count">1</span></a></li>
+            <li class="card-category-list-item more is-center"><a class="card-category-list-link-more" href="/categories/">
+                <span>查看更多</span><i class="fas fa-angle-right"></i></a></li>
+            </ul></div></div><div class="card-widget card-tags"><div class="card-content"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href='/tags/life/' style='font-size:1.44em; color:rgb(109, 18, 191)'>life</a><a href='/tags/tag1/' style='font-size:1.34em; color:rgb(93, 98, 43)'>tag1</a><a href='/tags/tag2/' style='font-size:1.20em; color:rgb(193, 147, 25)'>tag2</a><a href='/tags/tag3/' style='font-size:1.50em; color:rgb(123, 63, 166)'>tag3</a></div></div></div><div class="card-widget card-archives"><div class="card-content"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/09/"><span class="card-archive-list-date">九月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/06/"><span class="card-archive-list-date">六月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/05/"><span class="card-archive-list-date">五月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2019/12/"><span class="card-archive-list-date">十二月 2019</span><span class="card-archive-list-count">12</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2019/11/"><span class="card-archive-list-date">十一月 2019</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2013/12/"><span class="card-archive-list-date">十二月 2013</span><span class="card-archive-list-count">1</span></a></li></ul></div></div><div class="card-widget card-webinfo"><div class="card-content"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">17</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2020-09-17T07:46:53.219Z"></div></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(/img/love1.jpg)" data-type="photo"><div id="footer-wrap"><div class="copyright">&copy;2020 By 小兔子乖乖</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">簡</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><button id="chat_btn" type="button" title="rightside.chat_btn"><i class="fas fa-sms"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div class="search-dialog" id="algolia-search"><div class="search-dialog__title" id="algolia-search-title">Algolia</div><div id="algolia-input-panel"><div id="algolia-search-input"></div></div><hr/><div id="algolia-search-results"><div id="algolia-hits"></div><div id="algolia-pagination"></div><div id="algolia-stats"></div></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div><div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="/js/search/algolia.js"></script><script>var endLoading = function () {
+  document.body.style.overflow = 'auto';
+  document.getElementById('loading-box').classList.add("loaded")
+}
+window.addEventListener('load',endLoading)</script><div class="js-pjax"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><canvas class="fireworks"></canvas><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="/js/third-party/fireworks.js"></script></div></body></html>
